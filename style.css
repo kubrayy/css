@@ -1,0 +1,81 @@
+.section-title {
+  text-align: center;
+}
+.col-3 {
+  display: inline-block;
+  width: 30%
+}
+.card {
+  padding: 3px;
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 10px 10px 40px rgba(52 , 58, 64, 0.3);
+  /* position: relative;
+  top: 0; */
+  transition: all .3s;
+}
+.card:hover {
+  top: -10px;
+  transform: translateY(-10px);
+}
+.card-image {
+  max-height: 300px;
+}
+.card-body {
+  padding: 10px;
+}
+.img-fluid {
+  width: 100%;
+}
+
+.button {
+  background-color: #fc997f;
+  text-decoration: none;
+  color: #fff;
+  padding: 7px 15px;
+  font-size: 14px;
+  text-align: center;
+  border: 2px solid #fc997f;
+  border-radius: 3px;
+  display: inline-block;
+}
+.button:hover {
+  background-color: #fff;
+  color: #fc997f;
+  border: 2px solid #fc997f;
+}
+
+
+
+
+
+footer {
+  background-color: #2e4c6d;
+  padding: 30px;
+  margin-top: 30px;
+}
+footer a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}
+footer ul {
+  margin: 0;
+  padding: 0%;
+}
+footer ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 5px;
+}
+#social-links {
+  text-align: right;
+}
+.fa-brands {
+  padding: 10px;
+}
+.foot {
+  display: inline-block;
+  width: 49%;
+}
